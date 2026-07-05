@@ -1,0 +1,769 @@
+{
+  "score_threshold": {
+    "high": 76,
+    "low": 70
+  },
+  "loss_standard": [
+    {
+      "type": 1,
+      "unit": 2,
+      "range": {
+        "upper_limit": 1000,
+        "lower_limit": 300
+      },
+      "loss": 0.0,
+      "warning_loss": 0.1,
+      "alarm_loss": 0.2
+    },
+    {
+      "type": 14,
+      "unit": 2,
+      "range": {
+        "upper_limit": 1000,
+        "lower_limit": 300
+      },
+      "loss": 0.0,
+      "warning_loss": 0.1,
+      "alarm_loss": 0.2
+    },
+    {
+      "type": 13,
+      "unit": 2,
+      "range": {
+        "upper_limit": 1000,
+        "lower_limit": 300
+      },
+      "loss": 0.0,
+      "warning_loss": 0.1,
+      "alarm_loss": 0.2
+    },
+    {
+      "type": 12,
+      "unit": 2,
+      "range": {
+        "upper_limit": 1000,
+        "lower_limit": 300
+      },
+      "loss": 0.0,
+      "warning_loss": 0.1,
+      "alarm_loss": 0.2
+    },
+    {
+      "type": 16,
+      "unit": 2,
+      "range": {
+        "upper_limit": 1000,
+        "lower_limit": 300
+      },
+      "loss": 0.0,
+      "warning_loss": 0.1,
+      "alarm_loss": 0.2
+    },
+    {
+      "type": 18,
+      "unit": 2,
+      "range": {
+        "upper_limit": 1000,
+        "lower_limit": 300
+      },
+      "loss": 0.0,
+      "warning_loss": 0.1,
+      "alarm_loss": 0.2
+    },
+    {
+      "type": 6,
+      "unit": 2,
+      "range": {
+        "upper_limit": 1000,
+        "lower_limit": 300
+      },
+      "loss": 0.0,
+      "warning_loss": 0.1,
+      "alarm_loss": 0.2
+    },
+    {
+      "type": 22,
+      "unit": 2,
+      "range": {
+        "upper_limit": 1000,
+        "lower_limit": 300
+      },
+      "loss": 0.0,
+      "warning_loss": 0.1,
+      "alarm_loss": 0.2
+    },
+    {
+      "type": 4,
+      "unit": 2,
+      "range": {
+        "upper_limit": 1000,
+        "lower_limit": 300
+      },
+      "loss": 0.0,
+      "warning_loss": 0.1,
+      "alarm_loss": 0.2
+    },
+    {
+      "type": 2,
+      "unit": 2,
+      "range": {
+        "upper_limit": 1000,
+        "lower_limit": 300
+      },
+      "loss": 0.0,
+      "warning_loss": 0.1,
+      "alarm_loss": 0.2
+    },
+    {
+      "type": 9,
+      "unit": 2,
+      "range": {
+        "upper_limit": 1000,
+        "lower_limit": 300
+      },
+      "loss": 0.0,
+      "warning_loss": 0.1,
+      "alarm_loss": 0.2
+    },
+    {
+      "type": 0,
+      "unit": 2,
+      "range": {
+        "upper_limit": 1000,
+        "lower_limit": 300
+      },
+      "loss": 0.0,
+      "warning_loss": 0.1,
+      "alarm_loss": 0.2
+    },
+    {
+      "type": 10,
+      "unit": 2,
+      "range": {
+        "upper_limit": 1000,
+        "lower_limit": 300
+      },
+      "loss": 0.0,
+      "warning_loss": 0.1,
+      "alarm_loss": 0.2
+    }
+    
+  ],
+  "alarm_setting": [
+    {
+      "type": 1,
+      "unit": 3,
+      "range": {
+        "upper_limit":  1000000000,
+        "lower_limit": 2000
+      }
+    },
+    {
+      "type": 14,
+      "unit": 3,
+      "range": {
+        "upper_limit":  1000000000,
+        "lower_limit": 2000
+      }
+    },
+    {
+      "type": 13,
+      "unit": 3,
+      "range": {
+        "upper_limit":  1000000000,
+        "lower_limit": 2000
+      }
+    },
+    {
+      "type": 12,
+      "unit": 3,
+      "range": {
+        "upper_limit":  1000000000,
+        "lower_limit": 2000
+      }
+    },
+    {
+      "type": 16,
+      "unit": 3,
+      "range": {
+        "upper_limit":  1000000000,
+        "lower_limit": 2000
+      }
+    },
+    {
+      "type": 18,
+      "unit": 3,
+      "range": {
+        "upper_limit":  1000000000,
+        "lower_limit": 2000
+      }
+    },
+    {
+      "type": 6,
+      "unit": 3,
+      "range": {
+        "upper_limit":  1000000000,
+        "lower_limit": 2000
+      }
+    },
+    {
+      "type": 22,
+      "unit": 3,
+      "range": {
+        "upper_limit":  1000000000,
+        "lower_limit": 2000
+      }
+    },
+    {
+      "type": 4,
+      "unit": 3,
+      "range": {
+        "upper_limit":  1000000000,
+        "lower_limit": 2000
+      }
+    },
+    {
+      "type": 2,
+      "unit": 3,
+      "range": {
+        "upper_limit":  1000000000,
+        "lower_limit": 2000
+      }
+    },
+    {
+      "type": 9,
+      "unit": 3,
+      "range": {
+        "upper_limit":  1000000000,
+        "lower_limit": 2000
+      }
+    },
+    {
+      "type": 0,
+      "unit": 3,
+      "range": {
+        "upper_limit":  1000000000,
+        "lower_limit": 2000
+      }
+    },
+    {
+      "type": 10,
+      "unit": 3,
+      "range": {
+        "upper_limit":  1000000000,
+        "lower_limit": 2000
+      }
+    },
+    {
+      "type": 18,
+      "unit": 1,
+      "range": {
+        "upper_limit":  1000000000,
+        "lower_limit": 10
+      }
+    }
+  ],
+  "warning_setting": [
+    {
+      "type": 1,
+      "unit": 3,
+      "range": {
+        "upper_limit":  2000,
+        "lower_limit": 1000
+      }
+    },
+    {
+      "type": 14,
+      "unit": 3,
+      "range": {
+        "upper_limit":  2000,
+        "lower_limit": 1000
+      }
+    },
+    {
+      "type": 13,
+      "unit": 3,
+      "range": {
+        "upper_limit":  2000,
+        "lower_limit": 1000
+      }
+    },
+    {
+      "type": 12,
+      "unit": 3,
+      "range": {
+        "upper_limit":  2000,
+        "lower_limit": 1000
+      }
+    },
+    {
+      "type": 16,
+      "unit": 3,
+      "range": {
+        "upper_limit":  2000,
+        "lower_limit": 1000
+      }
+    },
+    {
+      "type": 18,
+      "unit": 3,
+      "range": {
+        "upper_limit":  2000,
+        "lower_limit": 1000
+      }
+    },
+    {
+      "type": 6,
+      "unit": 3,
+      "range": {
+        "upper_limit":  2000,
+        "lower_limit": 1000
+      }
+    },
+    {
+      "type": 22,
+      "unit": 3,
+      "range": {
+        "upper_limit":  2000,
+        "lower_limit": 1000
+      }
+    },
+    {
+      "type": 4,
+      "unit": 3,
+      "range": {
+        "upper_limit":  2000,
+        "lower_limit": 1000
+      }
+    },
+    {
+      "type": 2,
+      "unit": 3,
+      "range": {
+        "upper_limit":  2000,
+        "lower_limit": 1000
+      }
+    },
+    {
+      "type": 9,
+      "unit": 3,
+      "range": {
+        "upper_limit":  2000,
+        "lower_limit": 1000
+      }
+    },
+    {
+      "type": 0,
+      "unit": 3,
+      "range": {
+        "upper_limit":  2000,
+        "lower_limit": 1000
+      }
+    },
+    {
+      "type": 10,
+      "unit": 3,
+      "range": {
+        "upper_limit":  2000,
+        "lower_limit": 1000
+      }
+    },
+    {
+      "type": 18,
+      "unit": 1,
+      "range": {
+        "upper_limit":  10,
+        "lower_limit": 5
+      }
+    }
+  ],
+  "filter_setting": [ 
+    {
+        "id": 0,
+        "name": "所有类型_端部过滤(mm)，过滤范围",
+        "unit": 4,
+        "range": {
+            "upper_limit": 8000,
+            "lower_limit": 0
+        }
+    },
+    {
+        "id": 1,
+        "name": "所有类型_边部过滤(mm)，过滤范围",
+        "unit": 5,
+        "range": {
+            "upper_limit": 500,
+            "lower_limit": 0
+        }
+    },
+    {
+        "id": 2,
+        "name": "锟印_周期长度过滤(mm)，保留范围",
+        "unit": 6,
+        "range": {
+            "upper_limit": 4000,
+            "lower_limit": 400
+        }
+    },
+    {
+      "id": 3,
+      "name": "划伤_置信度过滤(score)，保留范围",
+      "unit": 9,
+      "range": {
+          "upper_limit": 1,
+          "lower_limit": 0.01
+      }
+    },
+    {
+      "id": 4,
+      "name": "划痕_置信度过滤(score)，保留范围",
+      "unit": 9,
+      "range": {
+          "upper_limit": 1,
+          "lower_limit": 0.01
+      }
+    },
+    {
+      "id": 5,
+      "name": "粘伤_置信度过滤(score)，保留范围",
+      "unit": 9,
+      "range": {
+          "upper_limit": 1,
+          "lower_limit": 0.01
+      }
+    },
+    {
+      "id": 6,
+      "name": "金属压入_置信度过滤(score)，保留范围",
+      "unit": 9,
+      "range": {
+          "upper_limit": 1,
+          "lower_limit": 0.01
+      }
+    },
+    {
+      "id": 7,
+      "name": "擦伤_置信度过滤(score)，保留范围",
+      "unit": 9,
+      "range": {
+          "upper_limit": 1,
+          "lower_limit": 0.01
+      }
+    },
+    {
+      "id": 8,
+      "name": "锟印_置信度过滤(score)，保留范围",
+      "unit": 9,
+      "range": {
+          "upper_limit": 1,
+          "lower_limit": 0.01
+      }
+    },
+    {
+      "id": 9,
+      "name": "切边不良_置信度过滤(score)，保留范围",
+      "unit": 9,
+      "range": {
+          "upper_limit": 1,
+          "lower_limit": 0.01
+      }
+    },
+    {
+      "id": 10,
+      "name": "裂边_置信度过滤(score)，保留范围",
+      "unit": 9,
+      "range": {
+          "upper_limit": 1,
+          "lower_limit": 0.01
+      }
+    },
+    {
+      "id": 11,
+      "name": "起皮_置信度过滤(score)，保留范围",
+      "unit": 9,
+      "range": {
+          "upper_limit": 1,
+          "lower_limit": 0.01
+      }
+    },
+    {
+      "id": 12,
+      "name": "腐蚀_置信度过滤(score)，保留范围",
+      "unit": 9,
+      "range": {
+          "upper_limit": 1,
+          "lower_limit": 0.01
+      }
+    },
+    {
+      "id": 13,
+      "name": "油斑_置信度过滤(score)，保留范围",
+      "unit": 9,
+      "range": {
+          "upper_limit": 1,
+          "lower_limit": 0.01
+      }
+    },
+    {
+      "id": 14,
+      "name": "气泡_置信度过滤(score)，保留范围",
+      "unit": 9,
+      "range": {
+          "upper_limit": 1,
+          "lower_limit": 0.01
+      }
+    },
+    {
+      "id": 15,
+      "name": "铝灰_置信度过滤(score)，保留范围",
+      "unit": 9,
+      "range": {
+          "upper_limit": 1,
+          "lower_limit": 0.01
+      }
+    },
+    {
+      "id": 16,
+      "name": "划伤_宽度过滤(mm)，保留范围",
+      "unit": 8,
+      "range": {
+          "upper_limit": 100000000,
+          "lower_limit": 0
+      }
+    },
+    {
+      "id": 17,
+      "name": "划痕_宽度过滤(mm)，保留范围",
+      "unit": 8,
+      "range": {
+        "upper_limit": 100000000,
+        "lower_limit": 0
+      }
+    },
+    {
+      "id": 18,
+      "name": "粘伤_宽度过滤(mm)，保留范围",
+      "unit": 8,
+      "range": {
+        "upper_limit": 100000000,
+        "lower_limit": 0
+      }
+    },
+    {
+      "id": 19,
+      "name": "金属压入_宽度过滤(mm)，保留范围",
+      "unit": 8,
+      "range": {
+        "upper_limit": 100000000,
+        "lower_limit": 0
+      }
+    },
+    {
+      "id": 20,
+      "name": "擦伤_宽度过滤(mm)，保留范围",
+      "unit": 8,
+      "range": {
+        "upper_limit": 100000000,
+        "lower_limit": 0
+      }
+    },
+    {
+      "id": 21,
+      "name": "锟印_宽度过滤(mm)，保留范围",
+      "unit": 8,
+      "range": {
+        "upper_limit": 100000000,
+        "lower_limit": 0
+      }
+    },
+    {
+      "id": 22,
+      "name": "切边不良_宽度过滤(mm)，保留范围",
+      "unit": 8,
+      "range": {
+        "upper_limit": 100000000,
+        "lower_limit": 0
+      }
+    },
+    {
+      "id": 23,
+      "name": "裂边_宽度过滤(mm)，保留范围",
+      "unit": 8,
+      "range": {
+        "upper_limit": 100000000,
+        "lower_limit": 0
+      }
+    },
+    {
+      "id": 24,
+      "name": "起皮_宽度过滤(mm)，保留范围",
+      "unit": 8,
+      "range": {
+        "upper_limit": 100000000,
+        "lower_limit": 0
+      }
+    },
+    {
+      "id": 25,
+      "name": "腐蚀_宽度过滤(mm)，保留范围",
+      "unit": 8,
+      "range": {
+        "upper_limit": 100000000,
+        "lower_limit": 0
+      }
+    },
+    {
+      "id": 26,
+      "name": "油斑_宽度过滤(mm)，保留范围",
+      "unit": 8,
+      "range": {
+        "upper_limit": 100000000,
+        "lower_limit": 0
+      }
+    },
+    {
+      "id": 27,
+      "name": "气泡_宽度过滤(mm)，保留范围",
+      "unit": 8,
+      "range": {
+        "upper_limit": 100000000,
+        "lower_limit": 0
+      }
+    },
+    {
+      "id": 28,
+      "name": "铝灰_宽度过滤(mm)，保留范围",
+      "unit": 8,
+      "range": {
+        "upper_limit": 100000000,
+        "lower_limit": 0
+      }
+    },
+    {
+      "id": 29,
+      "name": "划伤_高度过滤(mm)，保留范围",
+      "unit": 7,
+      "range": {
+          "upper_limit": 100000000,
+          "lower_limit": 0
+      }
+    },
+    {
+      "id": 30,
+      "name": "划痕_高度过滤(mm)，保留范围",
+      "unit": 7,
+      "range": {
+        "upper_limit": 100000000,
+        "lower_limit": 0
+      }
+    },
+    {
+      "id": 31,
+      "name": "粘伤_高度过滤(mm)，保留范围",
+      "unit": 7,
+      "range": {
+        "upper_limit": 100000000,
+        "lower_limit": 0
+      }
+    },
+    {
+      "id": 32,
+      "name": "金属压入_高度过滤(mm)，保留范围",
+      "unit": 7,
+      "range": {
+        "upper_limit": 100000000,
+        "lower_limit": 0
+      }
+    },
+    {
+      "id": 33,
+      "name": "擦伤_高度过滤(mm)，保留范围",
+      "unit": 7,
+      "range": {
+        "upper_limit": 100000000,
+        "lower_limit": 0
+      }
+    },
+    {
+      "id": 34,
+      "name": "锟印_高度过滤(mm)，保留范围",
+      "unit": 7,
+      "range": {
+        "upper_limit": 100000000,
+        "lower_limit": 0
+      }
+    },
+    {
+      "id": 35,
+      "name": "切边不良_高度过滤(mm)，保留范围",
+      "unit": 7,
+      "range": {
+        "upper_limit": 100000000,
+        "lower_limit": 0
+      }
+    },
+    {
+      "id": 36,
+      "name": "裂边_高度过滤(mm)，保留范围",
+      "unit": 7,
+      "range": {
+        "upper_limit": 100000000,
+        "lower_limit": 0
+      }
+    },
+    {
+      "id": 37,
+      "name": "起皮_高度过滤(mm)，保留范围",
+      "unit": 7,
+      "range": {
+        "upper_limit": 100000000,
+        "lower_limit": 0
+      }
+    },
+    {
+      "id": 38,
+      "name": "腐蚀_高度过滤(mm)，保留范围",
+      "unit": 7,
+      "range": {
+        "upper_limit": 100000000,
+        "lower_limit": 0
+      }
+    },
+    {
+      "id": 39,
+      "name": "油斑_高度过滤(mm)，保留范围",
+      "unit": 7,
+      "range": {
+        "upper_limit": 100000000,
+        "lower_limit": 0
+      }
+    },
+    {
+      "id": 40,
+      "name": "气泡_高度过滤(mm)，保留范围",
+      "unit": 7,
+      "range": {
+        "upper_limit": 100000000,
+        "lower_limit": 0
+      }
+    },
+    {
+      "id": 41,
+      "name": "铝灰_高度过滤(mm)，保留范围",
+      "unit": 7,
+      "range": {
+        "upper_limit": 100000000,
+        "lower_limit": 0
+      }
+    },
+    {
+      "id": 42,
+      "name": "擦伤_铝灰_锟印_跨类别周期性判定，周期长度范围",
+      "unit": 10,
+      "range": {
+        "upper_limit": 4000,
+        "lower_limit": 400
+      }
+    }
+]
+}

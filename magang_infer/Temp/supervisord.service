@@ -1,0 +1,16 @@
+#supervisord.service
+
+[Unit]
+Description=Supervisor daemon
+
+[Service]
+Type=forking
+ExecStart=/home/hongtai/anaconda3/bin/python /home/hongtai/anaconda3/bin/supervisord -c /home/hongtai/workspace/XX_infer_project/Maintenance/supervisor/supervisord_dabao.conf
+ExecStop=/home/hongtai/anaconda3/bin/python /home/hongtai/anaconda3/bin/supervisorctl shutdown
+ExecReload=/home/hongtai/anaconda3/bin/python /home/hongtai/anaconda3/bin/supervisorctl reload
+KillMode=process
+Restart=on-failure
+RestartSec=42s
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,8 @@
+path: /shangshanpu/data/ # dataset root dir
+train: 20240629_1/train/images  # train images (relative to 'path') 118287 images
+val: 20240629_1/valid/images  # val images (relative to 'path') 5000 images
+#test: test/images  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# Classes
+nc: 8  # number of classes
+names: ["dhk", "hh", 'rz', 'lq', 'qk', 'ac', 'cs','ql']  # class names

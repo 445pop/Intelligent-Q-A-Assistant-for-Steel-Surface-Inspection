@@ -1,0 +1,14 @@
+magang_infer/Log/del_logs/del_err.log
+magang_infer/Log/del_logs/del_out.log
+**/__pycache__
+*/__pycache__
+*.pyc
+__pycache__/
+magang_infer/Log/*
+/magang_infer/.idea/
+/magang_infer/.idea/inspectionProfiles/
+magang_infer/MyObject/__pycache__/ProjectConfig.cpython-36.pyc
+/magang_infer/MyObject/__pycache__
+/.claude
+/.git
+/.idea

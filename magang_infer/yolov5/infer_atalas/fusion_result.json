@@ -1,0 +1,73 @@
+{
+    "graph_fusion": {
+        "AConv2dMulFusion": {
+            "effect_times": "0",
+            "match_times": "79"
+        },
+        "ConstToAttrPass": {
+            "effect_times": "2",
+            "match_times": "2"
+        },
+        "ConvConcatFusionPass": {
+            "effect_times": "0",
+            "match_times": "13"
+        },
+        "ConvToFullyConnectionFusionPass": {
+            "effect_times": "0",
+            "match_times": "82"
+        },
+        "ConvWeightCompressFusionPass": {
+            "effect_times": "0",
+            "match_times": "82"
+        },
+        "FIXPIPEAPREQUANTFUSIONPASS": {
+            "effect_times": "0",
+            "match_times": "82"
+        },
+        "FIXPIPEFUSIONPASS": {
+            "effect_times": "0",
+            "match_times": "82"
+        },
+        "MulAddFusionPass": {
+            "effect_times": "0",
+            "match_times": "28"
+        },
+        "MulSquareFusionPass": {
+            "effect_times": "0",
+            "match_times": "79"
+        },
+        "RefreshInt64ToInt32FusionPass": {
+            "effect_times": "1",
+            "match_times": "1"
+        },
+        "RemoveCastFusionPass": {
+            "effect_times": "0",
+            "match_times": "164"
+        },
+        "SplitConvConcatFusionPass": {
+            "effect_times": "0",
+            "match_times": "13"
+        },
+        "TransdataCastFusionPass": {
+            "effect_times": "0",
+            "match_times": "86"
+        },
+        "ZConcatDFusionPass": {
+            "effect_times": "0",
+            "match_times": "13"
+        }
+    },
+    "session_and_graph_id": "0_0",
+    "ub_fusion": {
+        "TbeConvDequantSigmoidMulAddFusionPass": {
+            "effect_times": "14",
+            "match_times": "14",
+            "repository_hit_times": "0"
+        },
+        "TbeConvSigmoidMulQuantFusionPass": {
+            "effect_times": "65",
+            "match_times": "65",
+            "repository_hit_times": "0"
+        }
+    }
+}

@@ -1,0 +1,359 @@
+{
+  "score_threshold": {
+    "high": 76,
+    "low": 70
+  },
+  "loss_standard": [
+    {
+      "type": 0,
+      "unit": 3,
+      "range": {
+        "upper_limit": 1000,
+        "lower_limit": 300
+      },
+      "loss": 0.0,  
+      "warning_loss": 0.1,
+      "alarm_loss": 0.2
+    },
+    {
+      "type": 3,
+      "unit": 3,
+      "range": {
+        "upper_limit": 1000,
+        "lower_limit": 300
+      },
+      "loss": 0.0,
+      "warning_loss": 0.1,
+      "alarm_loss": 0.2
+    },
+    {
+      "type": 4,
+      "unit": 2,
+      "range": {
+        "upper_limit": 1000,
+        "lower_limit": 300
+      },
+      "loss": 0.0,
+      "warning_loss": 0.1,
+      "alarm_loss": 0.2
+    },
+    {
+      "type": 6,
+      "unit": 2,
+      "range": {
+        "upper_limit": 1000,
+        "lower_limit": 300
+      },
+      "loss": 0.0,
+      "warning_loss": 0.1,
+      "alarm_loss": 0.2
+    },
+    {
+      "type": 7,
+      "unit": 2,
+      "range": {
+        "upper_limit": 1000,
+        "lower_limit": 300
+      },
+      "loss": 0.0,
+      "warning_loss": 0.1,
+      "alarm_loss": 0.2
+    },    
+    {
+      "type": 11,
+      "unit": 2,
+      "range": {
+        "upper_limit": 1000,
+        "lower_limit": 300
+      },
+      "loss": 0.0,
+      "warning_loss": 0.1,
+      "alarm_loss": 0.2
+    },
+    {
+      "type": 15,
+      "unit": 2,
+      "range": {
+        "upper_limit": 1000,
+        "lower_limit": 300
+      },
+      "loss": 0.0,
+      "warning_loss": 0.1,
+      "alarm_loss": 0.2
+    },
+    {
+      "type": 16,
+      "unit": 2,
+      "range": {
+        "upper_limit": 1000,
+        "lower_limit": 300
+      },
+      "loss": 0.0,
+      "warning_loss": 0.1,
+      "alarm_loss": 0.2
+    },
+    {
+      "type": 17,
+      "unit": 2,
+      "range": {
+        "upper_limit": 1000,
+        "lower_limit": 300
+      },
+      "loss": 0.0,
+      "warning_loss": 0.1,
+      "alarm_loss": 0.2
+    },
+    {
+      "type": 18,
+      "unit": 2,
+      "range": {
+        "upper_limit": 1000,
+        "lower_limit": 300
+      },
+      "loss": 0.0,
+      "warning_loss": 0.1,
+      "alarm_loss": 0.2
+    }
+  ],
+  "alarm_setting": [
+    {
+      "type": 0,
+      "unit": 11,
+      "range": {
+        "upper_limit":  10000000,
+        "lower_limit": 60
+      }
+    },
+    {
+      "type": 3,
+      "unit": 3,
+      "range": {
+        "upper_limit":  1000000000,
+        "lower_limit": 200
+      }
+    },
+    {
+      "type": 4,
+      "unit": 3,
+      "range": {
+        "upper_limit":  1000000000,
+        "lower_limit": 200
+      }
+    },
+    {
+      "type": 6,
+      "unit": 3,
+      "range": {
+        "upper_limit":  1000000000,
+        "lower_limit": 200
+      }
+    },
+    {
+     "type": 7,
+     "unit": 3,
+     "range": {
+       "upper_limit":  1000000000,
+       "lower_limit": 200
+    }
+  },    
+    {
+      "type": 11,
+      "unit": 3,
+      "range": {
+        "upper_limit":  1000000000,
+        "lower_limit": 200
+      }
+    },
+    {
+      "type": 15,
+      "unit": 11,
+      "range": {
+        "upper_limit":  1000000,
+        "lower_limit": 60
+      }
+    },
+    {
+      "type": 15,
+      "unit": 12,
+      "range": {
+        "upper_limit":  1000000,
+        "lower_limit": 25
+      }
+    },
+    {
+      "type": 15,
+      "unit": 13,
+      "range": {
+        "upper_limit":  1000000,
+        "lower_limit": 20
+      }
+    },        
+    {
+      "type": 16,
+      "unit": 3,
+      "range": {
+        "upper_limit":  1000000000,
+        "lower_limit": 200
+      }
+    },
+    {
+      "type": 17,
+      "unit": 3,
+      "range": {
+        "upper_limit":  1000000000,
+        "lower_limit": 200
+      }
+    },
+    {
+      "type": 18,
+      "unit": 3,
+      "range": {
+        "upper_limit":  1000000000,
+        "lower_limit": 200
+      }
+    }
+  ],
+  "warning_setting": [
+    {
+      "type": 0,
+      "unit": 11,
+      "range": {
+        "upper_limit":  60,
+        "lower_limit": 50
+      }
+    },
+    {
+      "type": 0,
+      "unit": 12,
+      "range": {
+        "upper_limit":  25,
+        "lower_limit": 20
+      }
+    },
+    {
+      "type": 0,
+      "unit": 13,
+      "range": {
+        "upper_limit":  20,
+        "lower_limit": 15
+      }
+    },
+    {
+      "type": 3,
+      "unit": 3,
+      "range": {
+        "upper_limit":  200,
+        "lower_limit": 100
+      }
+    },
+    {
+      "type": 4,
+      "unit": 3,
+      "range": {
+        "upper_limit":  200,
+        "lower_limit": 100
+      }
+    },
+    {
+      "type": 6,
+      "unit": 3,
+      "range": {
+        "upper_limit":  200,
+        "lower_limit": 100
+      }
+    },
+    {
+      "type": 7,
+      "unit": 3,
+      "range": {
+        "upper_limit":  200,
+        "lower_limit": 100
+      }
+    },    
+    {
+      "type": 11,
+      "unit": 3,
+      "range": {
+        "upper_limit":  200,
+        "lower_limit": 100
+      }
+    },
+    {
+      "type": 15,
+      "unit": 11,
+      "range": {
+        "upper_limit":  60,
+        "lower_limit": 50
+      }
+    },
+    {
+      "type": 15,
+      "unit": 12,
+      "range": {
+        "upper_limit":  25,
+        "lower_limit": 20
+      }
+    },
+    {
+      "type": 15,
+      "unit": 13,
+      "range": {
+        "upper_limit":  20,
+        "lower_limit": 15
+      }
+    },
+    {
+      "type": 16,
+      "unit": 3,
+      "range": {
+        "upper_limit":  200,
+        "lower_limit": 100
+      }
+    },
+    {
+      "type": 17,
+      "unit": 3,
+      "range": {
+        "upper_limit":  200,
+        "lower_limit": 100
+      }
+    },
+    {
+      "type": 18,
+      "unit": 3,
+      "range": {
+        "upper_limit":  200,
+        "lower_limit": 100
+      }
+    }
+  ],
+  "filter_setting": [ 
+    {
+        "id": 0,
+        "name": "所有类型_置信度过滤(score)，过滤范围",
+        "unit": 9,
+        "range": {
+            "upper_limit": 1,
+            "lower_limit": 0.001
+        }
+    },
+    {
+        "id": 1,
+        "name": "所有类型_宽度过滤(mm)，保留范围",
+        "unit": 7,
+        "range": {
+            "upper_limit": 100000,
+            "lower_limit": 0
+        }
+    },
+    {
+        "id": 2,
+        "name": "所有类型_高度过滤(mm)，保留范围",
+        "unit": 8,
+        "range": {
+            "upper_limit": 100000,
+            "lower_limit": 0
+        }
+    }
+]
+}

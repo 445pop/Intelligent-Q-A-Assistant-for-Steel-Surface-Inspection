@@ -1,0 +1,211 @@
+is_nvidia: False
+# todo 检查setting区别：修改模型路径，修改文件存储路径，修改每个相机的像素对真实值的比例，修改大图尺寸，修改相机偏移，修改mysql、es数据库连接地址
+# TODO 修改http端口，修改推理设置，缺陷类型，修改评估结论
+# model_path 为大图模型
+# model_path2 为小图模型
+model_path: /home/hongtai/yolo/magang_infer/SteelDefectDetection-magang/magang_infer/Maintenance/weight_files/20241023.om
+model_path2: /home/hongtai/yolo/magang_infer/SteelDefectDetection-magang/magang_infer/Maintenance/weight_files/best_108.om
+Image:
+  img_path_replace: [["xx","xxx"]]
+  data_root:
+    # "112": "/diskb/server112"
+    # "113": "/diskb/server113"
+    # 上左右
+    # 下
+    # 1002d = 100.2 D: /
+    # depth_img = 100.1 D:/img
+    "1234": "/home/hongtai/yolo/depth_img"
+    "567": "/home/hongtai/yolo/1002d/img"
+  image_h: 4096
+  image_w: 3072
+  rate_pixel2real_y: {
+            'default' : 0.33333,
+            '1': 0.33333,
+            '2': 0.33333,
+            '3': 0.33333,
+            '4': 0.33333,
+            '5': 0.33333,
+            '6': 0.33333,
+            '7': 0.33333,
+        }
+  rate_pixel2real_x : {
+          'default' : 0.45,
+            '1': 0.45,
+            '2': 0.45,
+            '3': 0.45,
+            '4': 0.45,
+            '5': 0.45,
+            '6': 0.45,
+            '7': 0.45,
+        }
+
+CameraOffset:
+  # 1,2,3,4 一个表面 5,6,7,8 一个表面
+  # 上表侧表下表
+  # 西侧     1  192.168.6.114
+  # 上表西   2  192.168.6.113
+  # 上表东   3  192.168.7.132
+  # 东侧     4  192.168.6.116
+  # 下表左东 5  192.168.6.118
+  # 下表中   6  192.168.6.115
+  # 下表右西 7  192.168.6.119
+  1:
+    self_offset: [0,0]
+    other_offset: [0,0]
+  2:
+    self_offset: [0,0]
+    other_offset: [0,0]
+  3:
+    self_offset: [0,0]
+    other_offset: [3072,0]
+  4:
+    self_offset: [0,0]
+    other_offset: [0,0]
+  5:
+    self_offset: [0,0]
+    other_offset: [0,0]
+  6:
+    self_offset: [0,0]
+    other_offset: [3072,0]
+  7:
+    self_offset: [0,0]
+    other_offset: [6144,0]
+Database:
+    process_num: 1
+    ES:
+      es_port: "9201"
+      es_host: "192.168.100.3"
+      es_table: ['image','image_defect','steel_defect','repeat_defect']
+      #es_password: "Z0FBQUFBQm1ScWpvdzBmQXF1LU5HbGR1cXBNeEx6Qy1wQ3JkdkY2YTdzN0NEQllPX3pNY29sZFJNVWZBUkdGNlBMd08yWnJueGNreFh5QlVoamRKV0xqWHJZM2Uyb3pKY1E9PQ=="
+      #es_user: "xxxx"
+
+    MYSQL:
+      mysql_port: "3306"
+      mysql_host: "192.168.100.100"
+      mysql_user: "root"
+      mysql_password: "123456"
+      mysql_database: "steeldetection"
+      mysql_table: [ 'image','image_defect','steel_defect' ]
+HttpProcess:
+    http_host: "192.168.100.3"
+    http_port: "9007"
+    # http_port: "9005"
+Detect:
+  need_one_pic_merge: True
+  process_num: 16
+  gpu_count: 16
+  typeid_chinese: {
+    0: "漏清",
+    1: "沟槽",
+    2: "凹坑",
+    3: "起棱",
+    4: "擦伤",
+    5: "划伤",
+    6: "气孔",    
+    7: "裂纹",
+    8: "纵向裂纹",
+    9: "横向裂纹",
+    10: "角部裂纹",
+    11: "熔渣",
+    12: "熔珠",
+    13: "夹杂",
+    14: "夹渣",
+    15: "点火坑",
+    16: "划痕",
+    17: "凹槽",
+    18: "误检",
+    19: "疑似",
+    20: "水"
+}   
+  a_label: ["dhk", "hh", "rz", "lq", "qk", "ac", "cs", "ql", "ys", "s", "jz", "ak","wj","lw"]
+  #a_label: ['dhk','hh','rz', 'lq','qk','ac','cs','ql','ys','s','jz','ak'] 
+  # 全部训练序列转换[15,16,11,0,6,17,4, 3, 18, 7]
+  type_trans_a2c: [15, 16, 11, 0, 6, 17, 4, 3, 19, 20, 13, 2,18,7]
+  #type_trans_a2c: [15, 16, 11, 0, 6, 17, 4, 3, 19, 20, 13, 2]
+  typeid_label: {
+    0: 'louqing',
+    1: "goucao",
+    2: "aokeng",
+    3: "qileng",
+    4: "cashang",
+    5: "huashang",
+    6: "qikong",
+    7: "liewen",
+    8: "zongxiangliewen",
+    9: "hengxiangliewen",
+    10: "jiaobuliewen",
+    11: "rongzha",
+    12: "rongzhu",
+    13: "jiaza",
+    14: "jiazha",
+    15: "dianhuokeng",
+    16: "huahen",
+    17: "aocao",
+    18: "wujian",
+    19: "yisi",
+    20: "shui"
+}
+Conclusion:
+
+  # 获得结论并生成钢材缺陷 注意不能重复
+  # 聚合凹槽、起棱，然后根据深度来进行评级
+  typeid_merge: [3,17]
+
+  # 这里显示仅做面积评级 可以放在图像缺陷报警
+  typeid_area: [6, 11, 7, 2, 13]
+  
+  # 不需要聚合的深度评级
+  typeid_other_depth: [4,16]
+
+  # 需要评级 
+  typeid_need_summary: [15, 16, 11, 0, 6, 17, 4, 3, 18, 7]
+
+  #设置
+  merge_setting:
+    #单位m
+    y_grouping_space: 0.3
+    x_grouping_space: 10
+    s_threshold: 0.1
+  period_setting:
+    #单位mm
+    y_grouping_space: 2000
+    #像素
+    x_grouping_space: 10
+  # 1：距离头部距离
+  # 2：宽面点火坑深度
+  # 3：窄面点火坑深度
+  # 4：宽面漏清率
+  # 5：窄面漏清率
+  # 6：深度
+  # 7：缺陷尺寸（面积）
+  appraise_condition: [11,12,13,14,15,16,3]
+
+  #缺陷过滤条件 新增往后加
+  filter_condition: [9,17,18]
+  #类型转换条件
+  turn_condition: [10]
+  # unit单元释义
+  unit:
+    #unit表 id : name
+    1: "周期数评级(个)"
+    2: "长度评级(mm)"
+    3: "尺寸评级(mm^2)"
+    4: "头部距离过滤(mm)"
+    5: "左边界距离过滤(mm)"
+    6: "周期长度过滤(mm)"
+    7: "缺陷高度过滤(mm)"
+    8: "缺陷宽度过滤(mm)"
+    9: "保留置信度范围(score)"
+    10: "周期长度转换(mm)"
+    11: "距离铸坯头部距离评级(mm)"
+    12: "宽面点火坑深度评级(mm)"
+    13: "窄面点火坑深度评级(mm)"
+    14: "宽面漏清率评级(%)"
+    15: "窄面漏清率评级(%)"
+    16: "深/高度绝对值评级(mm)"
+    17: "保留缺陷尺寸范围(mm^2)"
+    18: "过滤条形缺陷长宽比"
+
+    
+post_client_url: 'http://192.168.100.100:8094/alertinfo'
+end_time: 'Z0FBQUFBQm1LOHNNY3RUOS1rTk1qMmhyck1GQTNLWUNhMmU4U2lJYnYtU2tmNkdLZmZDTll0RVczcTJxTUh3c0ZpNlJlNS1FVi04MDFBeVdNN1dnVkpKU2dQeWplanNMN0E9PQ=='

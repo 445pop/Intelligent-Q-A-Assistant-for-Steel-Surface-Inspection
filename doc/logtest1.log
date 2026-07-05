@@ -1,0 +1,164 @@
+2024/06/04 10:41:54 - ERROR - ----------------------等待100s，初始化华为卡-------------------------
+2024/06/04 10:41:54 - INFO - HttpProcess 0 start running
+Process HttpProcess-2:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hongtai/yolo/magang_infer/SteelDefectDetection-magang/magang_infer/MyObject/MyMethod.py", line 925, in run
+    MyHTTPServer(self.host, int(self.port), self.json_queue, self.finished_queue, self.logger, self.alive,self.alarmCancelled)
+  File "/home/hongtai/yolo/magang_infer/SteelDefectDetection-magang/magang_infer/UtilObject/HttpServerUtil.py", line 97, in __init__
+    self.setup_socket()
+  File "/home/hongtai/yolo/magang_infer/SteelDefectDetection-magang/magang_infer/UtilObject/HttpServerUtil.py", line 106, in setup_socket
+    self.sock.bind((self.host, self.port))
+OSError: [Errno 98] Address already in use
+2024/06/04 10:41:55 - ERROR - ----------------------准备开始初始化推理进程-------------------------
+2024/06/04 10:41:55 - INFO - Yes, es is alive!
+2024/06/04 10:41:55 - ERROR - 使用默认套餐评级配置信息，未查询到当前评级套餐配置信息：
+2024/06/04 10:41:55 - ERROR - 没有套餐，数据库也没有默认套餐，使用配置文件默认配置
+2024/06/04 10:41:55 - INFO - InferProcess 0 start running
+2024/06/04 10:41:55 - INFO - InferProcess 0 producer 1 start running
+2024/06/04 10:41:55 - INFO - Yes, es is alive!
+2024/06/04 10:41:55 - ERROR - 使用默认套餐评级配置信息，未查询到当前评级套餐配置信息：
+2024/06/04 10:41:55 - ERROR - 没有套餐，数据库也没有默认套餐，使用配置文件默认配置
+2024/06/04 10:41:55 - INFO - InferProcess 1 start running
+2024/06/04 10:41:55 - INFO - Yes, es is alive!
+2024/06/04 10:41:55 - INFO - InferProcess 1 producer 1 start running
+2024/06/04 10:41:55 - ERROR - 使用默认套餐评级配置信息，未查询到当前评级套餐配置信息：
+2024/06/04 10:41:55 - ERROR - 没有套餐，数据库也没有默认套餐，使用配置文件默认配置
+2024/06/04 10:41:55 - INFO - Yes, es is alive!
+2024/06/04 10:41:55 - INFO - InferProcess 2 start running
+2024/06/04 10:41:55 - INFO - InferProcess 2 producer 1 start running
+2024/06/04 10:41:55 - ERROR - 使用默认套餐评级配置信息，未查询到当前评级套餐配置信息：
+2024/06/04 10:41:55 - ERROR - 没有套餐，数据库也没有默认套餐，使用配置文件默认配置
+2024/06/04 10:41:55 - INFO - Yes, es is alive!
+2024/06/04 10:41:55 - INFO - InferProcess 3 start running
+2024/06/04 10:41:55 - INFO - InferProcess 3 producer 1 start running
+2024/06/04 10:41:55 - ERROR - 使用默认套餐评级配置信息，未查询到当前评级套餐配置信息：
+2024/06/04 10:41:55 - ERROR - 没有套餐，数据库也没有默认套餐，使用配置文件默认配置
+2024/06/04 10:41:55 - INFO - InferProcess 4 start running
+2024/06/04 10:41:55 - INFO - InferProcess 4 producer 1 start running
+2024/06/04 10:41:55 - INFO - Yes, es is alive!
+2024/06/04 10:41:55 - ERROR - 使用默认套餐评级配置信息，未查询到当前评级套餐配置信息：
+2024/06/04 10:41:55 - ERROR - 没有套餐，数据库也没有默认套餐，使用配置文件默认配置
+2024/06/04 10:41:55 - INFO - InferProcess 5 start running
+2024/06/04 10:41:55 - INFO - Yes, es is alive!
+2024/06/04 10:41:55 - INFO - InferProcess 5 producer 1 start running
+2024/06/04 10:41:55 - ERROR - 使用默认套餐评级配置信息，未查询到当前评级套餐配置信息：
+2024/06/04 10:41:55 - ERROR - 没有套餐，数据库也没有默认套餐，使用配置文件默认配置
+2024/06/04 10:41:55 - INFO - InferProcess 6 start running
+2024/06/04 10:41:55 - INFO - InferProcess 6 producer 1 start running
+2024/06/04 10:41:55 - INFO - Yes, es is alive!
+2024/06/04 10:41:55 - ERROR - 使用默认套餐评级配置信息，未查询到当前评级套餐配置信息：
+2024/06/04 10:41:55 - ERROR - 没有套餐，数据库也没有默认套餐，使用配置文件默认配置
+2024/06/04 10:41:56 - INFO - InferProcess 7 start running
+2024/06/04 10:41:56 - INFO - InferProcess 7 producer 1 start running
+2024/06/04 10:41:56 - INFO - Yes, es is alive!
+2024/06/04 10:41:56 - ERROR - 使用默认套餐评级配置信息，未查询到当前评级套餐配置信息：
+2024/06/04 10:41:56 - ERROR - 没有套餐，数据库也没有默认套餐，使用配置文件默认配置
+2024/06/04 10:41:56 - INFO - InferProcess 8 start running
+2024/06/04 10:41:56 - INFO - InferProcess 8 producer 1 start running
+2024/06/04 10:41:56 - INFO - Yes, es is alive!
+2024/06/04 10:41:56 - ERROR - 使用默认套餐评级配置信息，未查询到当前评级套餐配置信息：
+2024/06/04 10:41:56 - ERROR - 没有套餐，数据库也没有默认套餐，使用配置文件默认配置
+2024/06/04 10:41:56 - INFO - InferProcess 9 start running
+2024/06/04 10:41:56 - INFO - InferProcess 9 producer 1 start running
+2024/06/04 10:41:56 - INFO - Yes, es is alive!
+2024/06/04 10:41:56 - ERROR - 使用默认套餐评级配置信息，未查询到当前评级套餐配置信息：
+2024/06/04 10:41:56 - ERROR - 没有套餐，数据库也没有默认套餐，使用配置文件默认配置
+2024/06/04 10:41:56 - INFO - InferProcess 10 start running
+2024/06/04 10:41:56 - INFO - InferProcess 10 producer 1 start running
+2024/06/04 10:41:56 - INFO - Yes, es is alive!
+2024/06/04 10:41:56 - ERROR - 使用默认套餐评级配置信息，未查询到当前评级套餐配置信息：
+2024/06/04 10:41:56 - ERROR - 没有套餐，数据库也没有默认套餐，使用配置文件默认配置
+2024/06/04 10:41:56 - INFO - InferProcess 11 start running
+2024/06/04 10:41:56 - INFO - InferProcess 11 producer 1 start running
+2024/06/04 10:41:56 - INFO - Yes, es is alive!
+2024/06/04 10:41:56 - INFO - DatabaseProcess index 0 is running
+2024/06/04 10:41:56 - INFO - Yes, es is alive!
+2024/06/04 10:41:56 - INFO - Yes, es is alive!
+2024/06/04 10:41:56 - INFO - PeriodicCheckProcess 0 start running
+[INFO] PROFILING(2770,python3):2024-06-04-10:41:56.283.362 [prof_atls_plugin.cpp:160] >>> (tid:2774) Module[7] register callback of ctrl handle.
+[INFO] acl init success
+[INFO] acl init success
+[INFO] acl init success
+[INFO] acl init success
+[INFO] acl init success
+[INFO] acl init success
+[INFO] acl init success
+[INFO] acl init success
+[INFO] acl init success
+[INFO] acl init success
+[INFO] acl init success
+[INFO] acl init success
+[INFO] open device 0 success
+[INFO] open device 2 success
+[INFO] open device 1 success
+[INFO] load model /home/hongtai/yolo/magang_infer/SteelDefectDetection-magang/magang_infer/Maintenance/weight_files/nnl640v8m-base_bs1.om success
+[INFO] create model description success
+2024/06/04 10:41:56 - INFO - InferProcess check_steel_processTime start running
+2024/06/04 10:41:56 - INFO - batch model on device 0 in thread 1 start running
+2024/06/04 10:41:56 - INFO - InferProcess post_processing start running
+[INFO] load model /home/hongtai/yolo/magang_infer/SteelDefectDetection-magang/magang_infer/Maintenance/weight_files/nnl640v8m-base_bs1.om success
+[INFO] create model description success
+2024/06/04 10:41:57 - INFO - InferProcess check_steel_processTime start running
+2024/06/04 10:41:57 - INFO - batch model on device 2 in thread 1 start running
+2024/06/04 10:41:57 - INFO - InferProcess post_processing start running
+[INFO] load model /home/hongtai/yolo/magang_infer/SteelDefectDetection-magang/magang_infer/Maintenance/weight_files/nnl640v8m-base_bs1.om success
+[INFO] create model description success
+2024/06/04 10:41:57 - INFO - InferProcess check_steel_processTime start running
+2024/06/04 10:41:57 - INFO - batch model on device 1 in thread 1 start running
+2024/06/04 10:41:57 - INFO - InferProcess post_processing start running
+[INFO] open device 3 success
+[INFO] open device 4 success
+[INFO] open device 7 success
+[INFO] open device 6 success
+[INFO] open device 8 success
+[INFO] open device 5 success
+[INFO] open device 10 success
+[INFO] open device 11 success
+[INFO] open device 9 success
+[INFO] load model /home/hongtai/yolo/magang_infer/SteelDefectDetection-magang/magang_infer/Maintenance/weight_files/nnl640v8m-base_bs1.om success
+[INFO] create model description success
+2024/06/04 10:42:01 - INFO - InferProcess check_steel_processTime start running
+2024/06/04 10:42:01 - INFO - batch model on device 4 in thread 1 start running
+2024/06/04 10:42:01 - INFO - InferProcess post_processing start running
+[INFO] load model /home/hongtai/yolo/magang_infer/SteelDefectDetection-magang/magang_infer/Maintenance/weight_files/nnl640v8m-base_bs1.om success
+[INFO] create model description success
+2024/06/04 10:42:01 - INFO - InferProcess check_steel_processTime start running
+2024/06/04 10:42:01 - INFO - batch model on device 3 in thread 1 start running
+2024/06/04 10:42:01 - INFO - InferProcess post_processing start running
+[INFO] load model /home/hongtai/yolo/magang_infer/SteelDefectDetection-magang/magang_infer/Maintenance/weight_files/nnl640v8m-base_bs1.om success
+[INFO] create model description success
+2024/06/04 10:42:02 - INFO - InferProcess check_steel_processTime start running
+2024/06/04 10:42:02 - INFO - batch model on device 7 in thread 1 start running
+2024/06/04 10:42:02 - INFO - InferProcess post_processing start running
+[INFO] load model /home/hongtai/yolo/magang_infer/SteelDefectDetection-magang/magang_infer/Maintenance/weight_files/nnl640v8m-base_bs1.om success
+[INFO] create model description success
+2024/06/04 10:42:02 - INFO - InferProcess check_steel_processTime start running
+2024/06/04 10:42:02 - INFO - batch model on device 6 in thread 1 start running
+2024/06/04 10:42:02 - INFO - InferProcess post_processing start running
+[INFO] load model /home/hongtai/yolo/magang_infer/SteelDefectDetection-magang/magang_infer/Maintenance/weight_files/nnl640v8m-base_bs1.om success
+[INFO] create model description success
+2024/06/04 10:42:02 - INFO - InferProcess check_steel_processTime start running
+2024/06/04 10:42:02 - INFO - batch model on device 5 in thread 1 start running
+2024/06/04 10:42:02 - INFO - InferProcess post_processing start running
+[INFO] load model /home/hongtai/yolo/magang_infer/SteelDefectDetection-magang/magang_infer/Maintenance/weight_files/nnl640v8m-base_bs1.om success
+[INFO] create model description success
+2024/06/04 10:42:02 - INFO - InferProcess check_steel_processTime start running
+2024/06/04 10:42:02 - INFO - batch model on device 11 in thread 1 start running
+2024/06/04 10:42:02 - INFO - InferProcess post_processing start running
+[INFO] load model /home/hongtai/yolo/magang_infer/SteelDefectDetection-magang/magang_infer/Maintenance/weight_files/nnl640v8m-base_bs1.om success
+[INFO] create model description success
+2024/06/04 10:42:02 - INFO - InferProcess check_steel_processTime start running
+2024/06/04 10:42:02 - INFO - batch model on device 8 in thread 1 start running
+2024/06/04 10:42:02 - INFO - InferProcess post_processing start running
+[INFO] load model /home/hongtai/yolo/magang_infer/SteelDefectDetection-magang/magang_infer/Maintenance/weight_files/nnl640v8m-base_bs1.om success
+[INFO] create model description success
+2024/06/04 10:42:02 - INFO - InferProcess check_steel_processTime start running
+2024/06/04 10:42:02 - INFO - batch model on device 10 in thread 1 start running
+2024/06/04 10:42:02 - INFO - InferProcess post_processing start running
+[INFO] load model /home/hongtai/yolo/magang_infer/SteelDefectDetection-magang/magang_infer/Maintenance/weight_files/nnl640v8m-base_bs1.om success
+[INFO] create model description success
+2024/06/04 10:42:02 - INFO - InferProcess check_steel_processTime start running
+2024/06/04 10:42:02 - INFO - batch model on device 9 in thread 1 start running
+2024/06/04 10:42:02 - INFO - InferProcess post_processing start running

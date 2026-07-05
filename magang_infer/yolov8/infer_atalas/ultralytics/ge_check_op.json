@@ -1,0 +1,42 @@
+{
+    "graph_id": 0,
+    "op": [
+        {
+            "error_type": "infer_shape_error",
+            "input0": {
+                "data_type": "DT_FLOAT",
+                "layout": "ND",
+                "shape": [
+                    32,
+                    8,
+                    64,
+                    80
+                ]
+            },
+            "input1": {
+                "data_type": "DT_FLOAT",
+                "layout": "ND",
+                "shape": [
+                    32,
+                    8,
+                    65,
+                    80
+                ]
+            },
+            "name": "/model.10/AFPN/body/body.0/asff_scaleone1/Concat",
+            "output0": {
+                "data_type": "DT_FLOAT",
+                "layout": "ND",
+                "shape": [
+                    32,
+                    8,
+                    64,
+                    80
+                ]
+            },
+            "reason": "InferShapeFailed!",
+            "type": "ConcatD"
+        }
+    ],
+    "session_id": 0
+}
