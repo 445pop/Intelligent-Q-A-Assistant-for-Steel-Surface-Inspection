@@ -38,18 +38,18 @@ SteelDefectDetection-magang/
 ```
 ┌──────────────┐    HTTP     ┌─────────────────────────────────────┐
 │  C++ 采集端   │ ─────────→  │           magang_infer              │
-│ (TestWrapper) │   图片+元数据 │                                     │
+│ (TestWrapper) │   图片+元数据 │                                    │
 │              │             │  HttpProcess  →  InferProcess        │
-│  7+ 相机角度  │             │    (HTTP接收)     (YOLOv5/v8 推理)    │
+│  7+ 相机角度  │             │    (HTTP接收)     (YOLOv5/v8 推理)   │
 │  灰度+深度图  │             │       ↓                              │
 └──────────────┘             │  PosTransform  →  EsProcess          │
-                              │   (坐标转换)      (ES/MySQL 写入)     │
-                              │       ↓                              │
-                              │  PeriodicCheck →  Appraise           │
-                              │   (批次汇总)      (自动评级)           │
+                              │   (坐标转换)      (ES/MySQL 写入)    │
+                              │       ↓                             │
+                              │  PeriodicCheck →  Appraise          │
+                              │   (批次汇总)      (自动评级)          │
                               │                                     │
-                              │  Create3dProcess                     │
-                              │   (3D 深度裁剪)                       │
+                              │                                     │
+                              │                                     │
                               └─────────────────────────────────────┘
                                           │
                                           ▼
