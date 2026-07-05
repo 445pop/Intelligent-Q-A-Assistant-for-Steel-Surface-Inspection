@@ -122,7 +122,7 @@ supervisord -c magang_infer/Maintenance/supervisor/supervisord.conf
 python magang_infer/Test/http_send_mainid.py
 ```
 
-### AI Agent 平台（可选）
+### Agent 平台
 
 ```bash
 cd agent_steel
