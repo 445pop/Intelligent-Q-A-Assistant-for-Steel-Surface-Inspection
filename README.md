@@ -1,6 +1,6 @@
 # SteelDefectDetection-magang
 
-基于 YOLOv5/YOLOv8 的钢材表面缺陷实时检测系统。支持多摄像头（7+ 角度）协同推理、像素坐标到世界坐标转换、缺陷聚合拼接、自动评级（警告/报警），并将结果写入 Elasticsearch 与 MySQL。
+钢材表面缺陷实时检测系统。支持多摄像头（7+ 角度）协同推理、像素坐标到世界坐标转换、缺陷聚合拼接、自动评级（警告/报警），并将结果写入 Elasticsearch 与 MySQL。
 
 ## 演示视频
 
@@ -171,6 +171,4 @@ PyTorch (.pt) → ONNX → Ascend OM 格式
 
 ---
 
-## License
 
-Internal use — 马钢产线专用。
